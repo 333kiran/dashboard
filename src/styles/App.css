@@ -1,0 +1,52 @@
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.user-list-table-container {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.user-list .ant-table {
+    min-width: 600px; 
+}
+
+.page-link {
+    padding: 8px 16px;
+    margin: 4px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.page-link:hover {
+    background-color: #f0f0f0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .ant-col-sm-12 {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+}
